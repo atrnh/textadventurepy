@@ -1,0 +1,73 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+	font-family: "Roboto";
+	margin: 0px;
+}
+
+.flex {
+	display: flex;
+	flex: auto;
+}
+
+#wrapper {
+	align-items: flex-end;
+	flex-direction: column-reverse;
+	padding: 0.5em;
+}
+
+#form {
+	align-items: center;
+	min-width: 100%;
+	flex: 0 0 auto;
+}
+
+#display {
+	align-items: flex-end;
+	flex-direction: column-reverse;
+	min-width: 100%;
+	margin-bottom: 0.5em;
+	overflow-y: scroll;
+}
+
+button,
+input {
+	font-size: 1em;
+	
+}
+
+button {
+	flex: 0 0 auto;
+	border-radius: 0.5em;
+	border-style: none;
+	padding: 1em 1.75em;
+	font-weight: bold;
+	background-color: #29BB1A;
+	color: #FFF;
+}
+
+input {
+	flex: 1 0 auto;
+	border-style: none;
+	border-radius: 0;
+	border: 1px solid #ECECEC;
+	padding: 0.75em 0.5em;
+	margin-right: 8px;
+}
+
+.blurred {
+	color: #898989;
+	font-family: "Roboto Light";
+}
+
+p {
+	margin: 0;
+	min-width: 100%;
+}
+
+p + p {
+	
+	margin-bottom: 0.5em;
+	
+}
